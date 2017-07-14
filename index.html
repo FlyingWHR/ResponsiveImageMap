@@ -1,0 +1,34 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Responsive Image Map</title>
+	<!-- Link in our own style sheets. -->
+	<link rel="stylesheet" type= "text/css" href="css/main.css"/>
+
+	<!-- Link in our own JavaScript -->
+
+</head>
+<body>
+<script src="js/initialize.js"></script>
+	<div  class="img-map im0 img-left"  aria-label="image 0">
+			<img class="map-img"   src="1.jpg" >
+		<div class="map-area m1" onMouseOver="showChild(this)" onMouseOut="fadeChild(this)"  tabindex="0">
+				<div class="flyout" role="region">
+					<button class="close" onClick="closeParent(this)" type="button" tabindex="0"> <img class = "buttonIcon" src = "2.png"></button>
+				</div>
+		</div>
+		<div class="map-area m2" onMouseOver="showChild(this)" onMouseOut="fadeChild(this)"  tabindex="0">
+				<div class="flyout" role="region">
+					<button class="close" onClick="closeParent(this)" type="button" tabindex="0"> <img class = "buttonIcon" src = "2.png"></button>
+				</div>
+		</div>
+		<div class="map-area m3" onMouseOver="showChild(this)" onMouseOut="fadeChild(this)" tabindex="0">
+				<div class="flyout" role="region">
+					<button class="close" onClick="closeParent(this)" type="button" tabindex="0"> <img class = "buttonIcon" src = "2.png"></button>
+				</div>
+		</div>
+	</div>
+</body>
+</html>
